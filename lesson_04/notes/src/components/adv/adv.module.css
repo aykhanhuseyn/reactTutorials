@@ -1,0 +1,21 @@
+._add__box {
+	display: flex;
+	justify-self: center;
+	justify-content: center;
+	align-items: end;
+	flex-direction: column;
+	gap: 30px;
+	text-align: center;
+}
+
+._gradient {
+	font-size: 86px;
+	font-weight: 900;
+	background: -webkit-linear-gradient(rgb(255 22 14), rgb(206, 11, 255));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+._second {
+	text-align: right;
+}
