@@ -1,3 +1,5 @@
+// import {v4 as uuid} from 'uuid'
+
 export const users = [
 	{
 		id: 1,
@@ -33,6 +35,24 @@ export const data = [
 		owner: 3,
 		likes: [1, 2, 3],
 		createdAt: 1634844744325,
+		updatedAt: null,
+	},
+	{
+		id: 3,
+		title: 'TASM',
+		content: 'The Amazing Spiderman is greate movie.',
+		owner: 3,
+		likes: [1],
+		createdAt: 1635280325612,
+		updatedAt: null,
+	},
+	{
+		id: 4,
+		title: 'TASM',
+		content: 'The Amazing Spiderman is greate movie.',
+		owner: 3,
+		likes: [],
+		createdAt: 1635280325612,
 		updatedAt: null,
 	},
 ];

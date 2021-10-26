@@ -1,7 +1,6 @@
 import React from 'react';
+import { NotesList } from '../components/notes';
 
-const List = () => {
-	return <div>this is list</div>;
-};
+const List = () => <NotesList />;
 
-export default List;
+export { List };
