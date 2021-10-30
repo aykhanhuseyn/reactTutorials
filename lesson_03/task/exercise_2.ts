@@ -23,7 +23,7 @@ const comments = [
 
 // Some and Every Checks
 // Array.prototype.some() // is at least one person 19 or older?
-const isOrOlderThanAge = (year, age) => new Date().getFullYear() - year >= age;
+const isOrOlderThanAge = (year: number, age: number) => new Date().getFullYear() - year >= age;
 people.some; // YOUR CODE HERE
 // Array.prototype.every() // is everyone 19 or older?
 people.every; // YOUR CODE HERE

@@ -1,4 +1,7 @@
 *.mp4
+*.mp4.*
+video
+drive
 yarn.lock
 package.lock.json
 node_modules
