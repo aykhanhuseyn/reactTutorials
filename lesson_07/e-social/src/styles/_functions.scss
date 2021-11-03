@@ -1,0 +1,5 @@
+$rootSize: 16px;
+
+@function torem($pixel) {
+	@return $pixel / $rootSize + rem;
+}

@@ -1,0 +1,33 @@
+@mixin flex($jc: null, $ai: null) {
+	display: flex;
+
+	@if ($jc) {
+		justify-content: $jc;
+	}
+
+	@if ($ai) {
+		align-items: $ai;
+	}
+}
+
+@mixin grid($jc: null, $ai: null, $tc: null, $tr: null, $ta: null) {
+	display: grid;
+
+	@if ($jc) {
+		justify-content: $jc;
+	}
+
+	@if ($ai) {
+		align-items: $ai;
+	}
+
+	@if ($tc) {
+		grid-template-columns: $tc;
+	}
+	@if ($tr) {
+		grid-template-rows: $tr;
+	}
+	@if ($ta) {
+		grid-template-areas: $ta;
+	}
+}

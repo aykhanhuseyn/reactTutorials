@@ -1,0 +1,76 @@
+@import '../../styles/variables';
+@import '../../styles/functions';
+@import '../../styles/mixins';
+
+._header {
+	._head {
+		background-color: $blue;
+		@include grid(
+			$tc: max-content auto repeat(2, max-content),
+			$ta: 'logo _ call actions'
+		);
+
+		._logo {
+			@include flex(center, center);
+			grid-area: logo;
+			padding: 10px;
+			text-decoration: none;
+			color: #ffffff;
+
+			&__wrapper {
+				width: 50px;
+				height: 50px;
+
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+				}
+			}
+
+			&__text {
+				font-size: torem(40px);
+				text-decoration: none;
+				color: #ffffff;
+			}
+		}
+
+		._call {
+			grid-area: call;
+			@include flex($ai: center);
+			padding: 10px;
+			text-decoration: none;
+			color: #ffffff;
+		}
+
+		._actions {
+			grid-area: actions;
+			padding: 10px;
+		}
+	}
+
+	._nav {
+		background-color: #ffffff;
+		padding: 0;
+
+		a {
+			display: table-cell;
+			width: 140px;
+			color: #2c2c2c;
+			font-size: 15px;
+			padding: 5px;
+			text-align: center;
+			line-height: 30px;
+			transition: all 0.2s;
+
+			&:hover {
+				background-color: #eeeeef;
+			}
+
+			&.active {
+				border-bottom: 3px solid #325fff;
+				background-color: #eeeeef;
+			}
+		}
+	}
+}
