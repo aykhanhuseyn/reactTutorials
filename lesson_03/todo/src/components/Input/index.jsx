@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Input = ({ add }) => {
-	const [state, setState] = useState('');
+const Input = ({ add, input, setInput }) => {
 	const onPressEnter = (e) => {
-		if (state && e.key === 'Enter') {
-			add(state);
-			setState('');
+		if (input && e.key === 'Enter') {
+			add(input);
+			setInput('');
 		}
 		return;
 	};
@@ -16,8 +15,8 @@ const Input = ({ add }) => {
 			<input
 				name='todo'
 				id='todo'
-				value={state}
-				onChange={({ target }) => setState(target.value)}
+				value={input}
+				onChange={({ target }) => setInput(target.value)}
 				onKeyPress={onPressEnter}
 			/>
 		</>
