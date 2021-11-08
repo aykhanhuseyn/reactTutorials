@@ -8,6 +8,7 @@ import {
 import { Layout } from '../components/layout';
 import { Home } from './Home';
 import { List } from './List';
+import { NotFoud } from './NotFoud';
 
 function App() {
 	return (
@@ -22,7 +23,7 @@ function App() {
 					/> */}
 					<Route path='/list' exact component={List} />
 					<Route path='/create' exact component={() => <div>i am create</div>} />
-					<Route path='/404' exact component={() => <div>404! not found</div>} />
+					<Route path='/404' exact component={NotFoud} />
 					<Route path='/home' exact component={Home} />
 					<Redirect from='/' exact to='/home' />
 					<Redirect from='*' to='/404' />
