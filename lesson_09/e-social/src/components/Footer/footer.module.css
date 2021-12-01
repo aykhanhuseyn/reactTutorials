@@ -1,0 +1,145 @@
+._copyright {
+  background-color: #2f438a;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+._aistgroup {
+  width: 150px;
+}
+._aistgroup__img {
+  max-width: 100%;
+}
+._copy {
+  color: white;
+}
+
+._social__link {
+  width: 1024px;
+  margin: 0 auto;
+  background-color: #eeeeef;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+._link {
+  display: flex;
+  align-items: center;
+}
+._label {
+  color: #676767;
+  margin-left: 5px;
+}
+
+._help__footer {
+  background-color: #ffffff;
+  padding: 30px 20px;
+}
+._help__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+._ministry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+._ministry__img {
+  width: 201px;
+  height: 75px;
+  object-fit: contain;
+}
+
+._help {
+  padding-top: 20px;
+}
+
+._help div {
+  margin-bottom: 20px;
+  padding-right: 5px;
+}
+._help div a {
+  display: flex;
+  align-items: center;
+}
+
+._help div span {
+  margin-left: 10px;
+  color: #676767;
+}
+
+._text {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #737070;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+._link__btn___footer {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  color: #ababab;
+  margin-right: 8px;
+  overflow: hidden;
+}
+
+._link__btn___footer:first-child {
+  background-color: #3b5997;
+  color: white;
+}
+
+._social {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding-top: 20px;
+}
+._social__txt {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #737070;
+  font-size: 15px;
+  font-weight: 700;
+}
+._app__footer {
+  background-color: #2f438a;
+  padding: 20px;
+}
+
+._app__link {
+  padding-left: 50px;
+}
+
+._app__link a img {
+  width: 77px;
+}
+
+._app__link a {
+  margin-left: 10px;
+}
+._app__text {
+  color: #b8c8ff;
+  font-size: 22px;
+  font-weight: 700;
+  width: 400px;
+}
+
+._logo__phone {
+  max-height: 260px;
+}
+
+._photo__app {
+  width: 900px;
+  margin: 0 auto;
+  align-items: center;
+}

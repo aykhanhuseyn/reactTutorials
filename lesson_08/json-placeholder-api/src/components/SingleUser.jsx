@@ -11,13 +11,13 @@ const SingleUser = () => {
 		error: null,
 	});
 
-	const handleClick = useCallback(() => console.log('hello'), []);
+	// const handleClick = useCallback(() => console.log('hello'), []);
 
 	useEffect(() => {
 		let mount = true;
-		console.log('mounting');
+		// console.log('mounting');
 
-		document.body.addEventListener('click', handleClick);
+		// document.body.addEventListener('click', handleClick);
 
 		const getUsers = async (id) => {
 			try {
@@ -44,8 +44,8 @@ const SingleUser = () => {
 
 		return () => {
 			mount = false;
-			document.body.removeEventListener('click', handleClick);
-			console.log('unmounting');
+			// document.body.removeEventListener('click', handleClick);
+			// console.log('unmounting');
 		};
 	}, [id, handleClick]);
 

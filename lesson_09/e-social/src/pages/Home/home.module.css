@@ -1,0 +1,39 @@
+._all__services{
+    padding:100px 0 50px 0;
+}
+
+._main{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+._all__services___text{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+._service{
+    background-color:white;
+    border-radius:10px;
+    padding:25px;
+    display:flex;
+    justify-content:start;
+    align-items:center;
+}
+._service:hover{
+    background-color: #2f438a;
+    transition-duration: .6s;
+}
+._service:hover ._text{
+    color:white;
+}
+
+._icon{
+    color:#BDCBFF;
+    text-align:center;
+    font-size:60px;
+}
+._text{
+    text-align:center;
+}

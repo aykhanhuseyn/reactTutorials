@@ -1,0 +1,71 @@
+._main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+._idea__tab {
+  margin-right: 30px;
+}
+
+._sec {
+  padding-top: 50px;
+}
+
+._idea__count {
+  width: 160px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  color: white;
+}
+
+._icon__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+._icon__text span {
+  margin-left: 10px;
+}
+
+._data__card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+}
+._date {
+  color: #b5b5b5;
+  font-size: 14px;
+}
+._text {
+  color: #1f1f1f;
+  margin-top: 5px;
+}
+
+._tabs__cards {
+  margin: 50px 0;
+}
+
+._btn__icon {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+}
+._btn {
+  border-radius: 10px;
+  background-color: #2d55e4;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+._btn span {
+  margin-left: 5px;
+}
